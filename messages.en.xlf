@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="bc9194188100b69ad8f4e17da84477ff05233c21" datatype="html">
+        <source>
+          65, avenue du livre <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> C/ Gombe, Kinshasa République D. Congo
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0fdbb96dd88f013acf48e37fcbab25550b30d5c" datatype="html">
+        <source>Navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1db6cc9a977f9ab640d4794214922775a6de0785" datatype="html">
+        <source>Accueil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27e85768b7a994271dbe9155bf1f2785d21aebc3" datatype="html">
+        <source>Produits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="419d940613972cc3fae9c8ea0a4306dbf80616e5" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e9fc5e5ac4f8af1cc4edeb59a2ba4bc1b19a43a" datatype="html">
+        <source>Produits et services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="491e1e28356eec98d21798d6754b25d1096c75e8" datatype="html">
+        <source>Makabo Don</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ea694b20deff6f0a2859d2b40b815c2f7a1853c" datatype="html">
+        <source>Makabo prévente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ae80f4ea68cb19a692205028a8c3aa8427c1e1e" datatype="html">
+        <source>AB Educ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66db29e3c89376135808288388c12e27ca90ead5" datatype="html">
+        <source>AB Soin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e86a01cd64bd83bfe9fd5e2e039b4aa0f93a7660" datatype="html">
+        <source>Site vitrine</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8700b55acaa4aff192ab2367a0231acc2ee8613" datatype="html">
+        <source>E-commerce</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b49420d6f53c830d437eb3d7d70de9617a15a5b1" datatype="html">
+        <source>ERP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32f6e25b6b70a9565daefa0ac0b001840f84a1a" datatype="html">
+        <source> tous droits reservés.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3fa2de2f254cca9967a3d56609d64fbee6d86000" datatype="html">
+        <source>don</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59941d532f3eb0bb15b01493df562fdd3241f663" datatype="html">
+        <source>prévente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="668ee511f7fc286d4e499909d56e379db72bc38b" datatype="html">
+        <source>prêt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2466ead328356f4bce98e8cea9a09c1704fc15b8" datatype="html">
+        <source>ab soins</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f532827c625eb23b05b1f396316bf9f3f57fd77" datatype="html">
+        <source>ab educ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d287fe35fb8fbd6fe410b25e9aee872910ec384b" datatype="html">
+        <source>Contactez-nous
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d29c347fb079d764ab40d2e56bfdcd22225a060d" datatype="html">
+        <source>Laissez-nous un message ou passer à nos bureaux dans
+                l&apos;adresse indiquée ci-dessous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcf236c96fa6173afbb1580d2e3a8b6abb8f7c9" datatype="html">
+        <source>Envoyez-nous un message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="328c4a8399a9028884f51417b43677106c52c486" datatype="html">
+        <source>
+                                Nom
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4c0f3acb646c7e76f4f516465da15171b5f3ad3" datatype="html">
+        <source>
+                                Email
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b877c909cec480cf3f9d4b134ba0e26d34b4c48b" datatype="html">
+        <source>
+                                Votre message
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a661f722fbf822d89de11e25f5c7c75fedf00134" datatype="html">
+        <source>Nous localisé</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d355ae1581cb7cfd4818c03c877f5c259430ac5" datatype="html">
+        <source>65, avenue du livre <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> C/ Gombe, Kinshasa
+                            République D. Congo </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4f28ff3aaa95624c96653f180e0cd958d4d8f18" datatype="html">
+        <source>Oops. une erreur s&apos;est produite.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/notfound/notfound.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d473e0f684a60db45d6f31e993f693f74290e056" datatype="html">
+        <source>Service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feabddac5ff895f085b826bbf58ba77e82942743" datatype="html">
+        <source>Vitrine</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="005c6e26bda142a7ac61bf77ad6b9000de916054" datatype="html">
+        <source>VITRINE
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e450d1ce01e9915344fe95698471ed6c9c205b57" datatype="html">
+        <source>Un site vitrine est un site internet qui présente les
+                        produits et services de votre activité, sans vendre en ligne. Un site vitrine a donc pour
+                        objectif d’apporter une présence en ligne à une entreprise, un artisan, une collectivité et
+                        autres, afin d’acquérir des contacts, prospects et clients via internet. Il s’adresse donc à
+                        toute personne ayant un objectif commercial mais sans vente directe en ligne.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34b0e9fc5fe5efd446b5b24e9107d9c24be4ca1b" datatype="html">
+        <source>Pourquoi choisir cette solution?
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc2862e0696cba078e8812cd5065110dd07074ed" datatype="html">
+        <source> Le principal avantage d&apos;un site vitrine est de
+                        montrer l&apos;image de votre societé, c’est-à-dire :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="010ef99bdc924c4e24a079865fc6d03b54a06f7c" datatype="html">
+        <source>Exister en ligne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3124aa1bd0b6a7d46793ab3236dd3c6d47cbd10" datatype="html">
+        <source>un site vitrine vous offre une présence sur internet pour
+                                        votre entreprise. Même si vous disposez d&apos;une boutique, nombreux sont les
+                                        consommateurs à vouloir se renseigner sur internet avant tout achat. Même vos
+                                        clients réguliers s&apos;attendront à ce que vous disposiez d&apos;un site internet, ne
+                                        serait-ce que pour accéder à vos informations utiles (contacts, heures
+                                        d&apos;ouverture, etc.). Avoir une présence en ligne est donc devenu indispensable si
+                                        vous ne souhaitez pas vous couper d&apos;une partie de votre clientèle.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb181711a44c1fc3c8648903570638d7801a456b" datatype="html">
+        <source>Améliorer votre image et
+                                        votre branding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a493626279d385e87b625ec33622be8bbcd1b111" datatype="html">
+        <source>votre site vitrine, s&apos;il est bien conçu, permettra de mettre
+                                        votre entreprise en valeur, et d&apos;améliorer votre image de marque. En plus
+                                        d&apos;exister sur internet, vous donnerez une excellente image aux internautes. Un
+                                        site vitrine offrira quoi qu&apos;il en soit une image professionnelle et sérieuse à
+                                        toute entreprise, ce qui pourra évidemment déclencher des ventes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84e29db075f694d8caa3d32ed3cc1299979bd4ab" datatype="html">
+        <source>Faire plus de ventes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3917878c1dde26012d7a1dd71a216d1156b0d460" datatype="html">
+        <source>Il faut le dire, disposer d’un site web vitrine est un bon
+                                        moyen pour booster vos ventes. Concrètement, le soin qui est porté à la
+                                        présentation de vos produits fait que les internautes ont l’engouement de les
+                                        tester.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d35cba468a1839eb2ae07a53c1fa8bad5a10209" datatype="html">
+        <source>Toucher de nouveaux clients
+                                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b484f07b10595c210a4081d28f3a8b5b7c778f55" datatype="html">
+        <source>un site vitrine peut vous permettre de toucher aisément une
+                                        nouvelle clientèle, et permettre à votre boutique de devenir plus populaire.
+                                        Comment ? Tout simplement en attirant les internautes grâce aux moteurs de
+                                        recherche ! Si votre site est correctement référencé grâce à du contenu web
+                                        pertinent, les internautes qui chercheront les services ou produits que vous
+                                        proposez tomberont forcément sur vous. Tout cela sans que vous n&apos;ayez à investir
+                                        des milliers d&apos;euros dans la publicité. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e96a5bc0b21a88c8c24b7fecf1c7a2df67abc8ba" datatype="html">
+        <source>Faire plus du marketing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b4db815185e1dba083e9a5f3d4c648dcc1830132" datatype="html">
+        <source>Une fois l&apos;image de votre site en ligne, vous serez referencé
+                                        sur web en quelque seconde, et booster les services de votre societé sur votre
+                                        site et promouvoir tous vos produits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/sitevitrine/sitevitrine.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ee009a5c55251d0c1daf926448e839298879bf9" datatype="html">
+        <source>E-COMMERCE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cdef10aff0f9364ee3f17e3a5a2ea9d70c20a602" datatype="html">
+        <source>E-COMMERCE
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d432b202c81ff030e04b3f3438b01a6153c2c3f" datatype="html">
+        <source>Le e-commerce est l’abréviation de “electronic commerce” ,
+                        ou “commerce électronique” . On peut aussi l’appeler “commerce en ligne” , voire “boutique en
+                        ligne” . Un site e-commerce, est une plateforme web ( un site internet ) de vente en ligne.
+                        Un espace ou le commerçant a la possibilité d’exposer ses produits et de toucher à un public
+                        nettement plus ciblé, surtout plus important que celui qu’il pourrait trouver dans son magasin
+                        réel.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="924e4bcf4b137714ef960b1857091d0ea404a59b" datatype="html">
+        <source> Le principal avantage est que avec un site
+                        e-commerce vous pouvez :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e29e0121a02d247df86a07fb52f1dceb008c19d" datatype="html">
+        <source>Atteindre de nouveaux
+                                        clients</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ecf33309ec74fb6a01cfe19b1d4eb37c34b2576e" datatype="html">
+        <source>Avec le web, vous parlez à vos clients actuels et potentiels
+                                        partout et tout le temps, qu’ils cherchent vos produits depuis un ordinateur ou
+                                        un smartphone, qu’ils soient au travail, en déplacement ou chez eux.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7803b865954149f68d06bef931286de5c38bcc5c" datatype="html">
+        <source>Créer et rassembler en ligne
+                                        une communauté d’acheteurs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3aea0e68e751124f472f0a9e8a126e589796b2e5" datatype="html">
+        <source>Le web permet de rassembler et fidéliser plus facilement vos
+                                        clients. Que ce soit en utilisant les réseaux sociaux ou la base de données de
+                                        vos clients web, vous obtenez de nouveaux moyens de communiquer avec eux, de
+                                        leur proposer des promotions et de les fidéliser : newsletters, codes de
+                                        réduction, community management pour les tenir informés…</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b5f9228a73ceb6144d1f491dde3d67665c6f48f" datatype="html">
+        <source>des revenus potentiels à
+                                        toute heure</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f64a07ea6eee9a1dac3f2a66e6b36907f471b0b7" datatype="html">
+        <source>les boutiques en ligne sont toujours ouvertes. Avec vos
+                                        publicités Facebook, vous pouvez attirer les clients jour et nuit. Le commerce
+                                        en ligne n’a pas d’heure d’ouverture ! La plupart des magasins sont ouverts de 9
+                                        h à 19 h. En étant disponible à toute heure, vous pouvez attirer des clients qui
+                                        auraient récupéré leur article en magasin si ce dernier était ouvert. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d24ee6cedbd9206c8991729ef9b53ac421031efb" datatype="html">
+        <source>Générer plus de visites en
+                                        magasin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac591eab1e78935d7204fef31a2380c6056e8018" datatype="html">
+        <source>Avec une présence web, vous développez votre visibilité et
+                                        pouvez donc acquérir plus de visites en magasin.
+                                        Cela peut être indirectement avec du référencement local, qui fera apparaître
+                                        votre magasin sur Google Map et fera connaître votre boutique. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed2f89bd7b0b6f4d6a3b78a14c0fa24a0811324a" datatype="html">
+        <source> Faire connaître ses produits
+                                        nationalement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="070829653bcd412f4aa67f31b7a3ef7e0a187de5" datatype="html">
+        <source>Avec des options de livraison à domicile, vous pouvez acquérir
+                                        des clients de l’autre bout du Congo. Vous pouvez alors faire connaître vos
+                                        produits à une audience beaucoup plus large, et même avoir une portée
+                                        transfrontalière ou internationale si vous en avez la stratégie.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ccee3c61ae5325d2112303d0fdf072f2dfb0d2c8" datatype="html">
+        <source>Augmenter son activité
+                                        globale en ajoutant un canal de vente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bfe670660a047d0ca02c83dd3d357ecc4a262c9a" datatype="html">
+        <source>Si un site e-commerce connecté à votre magasin peut être un
+                                        investissement de départ important, l’ajout de ce canal de vente est un vrai
+                                        moteur pour votre commerce. Vous augmentez vos ventes globales, en ligne et en
+                                        magasin, acquérez de nouveaux clients, attisez leur fidélité… </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/siteecommerce/siteecommerce.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="259da82ee7e3070e8447e7a6acad920cd348f867" datatype="html">
+        <source>ERP
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9534b37182df2a271100811c3ee0982a3f8b17b3" datatype="html">
+        <source>Un ERP (Entreprise Resource Planning) ou encore PGI en
+                        français (Progiciel de Gestion Intégrée) est un logiciel qui permet aux salariés d’une
+                        entreprise de posséder une base de données commune avec des modules métiers spécialisés, de
+                        travailler de manière intégrée, interconnectée et donc plus efficace. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+                        La mise en place d’un nouvel outil de gestion en entreprise est souvent synonyme de grands
+                        changements dans l’organisation et de chamboulement des habitudes. Mais le gain de temps et
+                        d’efficacité récoltés à la suite de l’implémentation peuvent être considérables, à condition
+                        bien sûr de bien choisir son logiciel, former le personnel et ne pas négliger la gestion du
+                        changement.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33d0febda1994c85c7b4a64e5f6e129d68311e5f" datatype="html">
+        <source> Le principal avantage est que la solution ERP
+                        couvre les principaux besoins d’une entreprise, c’est-à-dire :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62014bee52a61c982f5b5d4b871d8e68c55fb1b1" datatype="html">
+        <source>Gestion des achats/
+                                        fournisseurs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a7891dcefd8f642d31cdebf404927b9c9f3f68a5" datatype="html">
+        <source>Gerer les achats effectué par votre entreprise, gerer vos fournisseurs et les entrées/sorties.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5353175b2ef52c5b6e3ff08f336052ca800515ae" datatype="html">
+        <source>Gestion commerciale</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d775bfecb1adcbcb57fcd75e08eb75dc3884020c" datatype="html">
+        <source>Gerer vos données commerciaux avec la solution erp.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbbb798eb12d784f5ac30cb0952cc01b927fe7e7" datatype="html">
+        <source>Gestion des articles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b833775bf71bdb8060984e8ba1f047ef7e37334" datatype="html">
+        <source>Gerer vos articles, et tout vos produits avec la solution erp.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6669828e670842180f6d07b428af0ee7325f32dd" datatype="html">
+        <source>Gestion des stocks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c53fdaadfe01fa1ea86ccd491c3570c8d972f899" datatype="html">
+        <source>Gerer vos stocks, les entrées/sorties,... </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="277a4f88a4f0ef142a6edaddf7bbb842e3472623" datatype="html">
+        <source>Son objectif est
+                                d’optimiser la gestion des données, de mutualiser les systèmes d’information et
+                                processus opérationnels et mettre à disposition de tous les salariés une gestion de
+                                l’ensemble des données de l’entreprise.
+                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66c051f2fa21bfd89adebb9a7bcc7c1cc9ce86a4" datatype="html">
+        <source>Voici une liste non exhaustive des
+                                avantages d’un ERP :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b5d6d32dfdc3bdb60ef1dc767e8520a91485f10" datatype="html">
+        <source> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Un gain de temps<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                                diminution des saisies, moins erreurs, meilleure réactivité, rapidité d&apos;accés dans vos donées <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d33f8050542327cce9fa2d8401799862f6cf7e6" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/> Augmentation du CA<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> meilleur gestion du
+                                                CRM, augmentation des ventes, motivation des salariés, meilleure gestion
+                                                en général…</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc958b6a5b3122b89b62738c875a649c51daabbc" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Actualisation en temps réel <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> plus de
+                                                doublon dans vos données, tout est géré avec plus des precisions et détails. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                                
+                                               </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ab7134a3672052d5c0e8c1c2e50e1aef8ec4804" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/> Bonne communication<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Coordination entre les services, meilleure
+                                                communication inter services  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                                
+                                                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/servic/erp/erp.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="327fce42004120c7a8f4b87900f197e6110bd583" datatype="html">
+        <source>DEMO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ed4005f3b754287b2a1d97af2dbfed1f9314b3c" datatype="html">
+        <source>Gestion des informations des patients</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a2e47017f08b2258534c96859dfefb76a365b54" datatype="html">
+        <source>AB Soins</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">250</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">264</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826ca402d4087842f265185e65ef2a1067343b72" datatype="html">
+        <source>La gestion des medecins et de toutes ces opèrations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c4f7f12412b070fbb284e20075c25b410d4276c" datatype="html">
+        <source>Ab Soins</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5dd35038f6e6eecb928f1412dbea6e77b9281097" datatype="html">
+        <source>La gestion de tous les rendez-vous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9690ce66f571493a63779ca054d48160188c6af" datatype="html">
+        <source>La gestion des laboratoires</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c593a6d283aca75f6ca60d9aa229172b191db773" datatype="html">
+        <source>Admistration des patients hospitalisés</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="162b8c3bf2f0cecd1dbcc7375b52ac7db509da80" datatype="html">
+        <source> AB Soins</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12f022b9f872efbcfa9cad895c36ffebe54690b1" datatype="html">
+        <source>La gestion de la pédiatrie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fba05b9d63f0be89813c8306906329b61c91a079" datatype="html">
+        <source>L&apos;hisotorique médical du patient</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="797505daf7782d5d454b61dc4b8c03f2853cbeff" datatype="html">
+        <source>La gestion de la file d&apos;attente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c819f7cdd238cf7eaf762ce44f8a82e9f98fde2" datatype="html">
+        <source>Les soins infirmiers et gestion ambulatoire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a2bf897484c445a3b3fcec4c091d91d97375e82" datatype="html">
+        <source>Le paramètrage dynamique</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe00ad8d7f5a50a3623c4c8487f0b5c3ee9c7d6c" datatype="html">
+        <source>L&apos;historique medical du patient</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="246bce8543fe897e09b74a8b2231e5c3071be5fa" datatype="html">
+        <source>La gestion de l&apos;imagerie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd374780c758eca5890e9502a21f168c746a8cfd" datatype="html">
+        <source>La gestionsss de la file d&apos;attente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="018d949c7f164e13e0427fe2e994435d4773ff60" datatype="html">
+        <source>AB Soins </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">293</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d924013f60530f2cc0b91e02af05d1501bfdc4f9" datatype="html">
+        <source>La délivrance de certificat médical</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ca9fea303c6e8e31c38b696d0e2d324424456d3" datatype="html">
+        <source>Intégration de la facturation et de la comptabilité</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/galerie/galerie.component.html</context>
+          <context context-type="linenumber">316</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2be996d54da62d5095ae9a9e8152e88c77a373f3" datatype="html">
+        <source>Grâce à makabo don, Congo Excellence a pu levé 3950$/3200$ pour soutenir une cause juste
+                    à travers AB Crowfunding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/proddon/proddon.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="443ab077b0c47a78c7cd377ceb1e033da663d451" datatype="html">
+        <source>
+                    - Après le verbe aimer, aider est le plus beau du monde <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/proddon/proddon.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63e00b8c59c93b98f87499afb2799df59f9dc2ce" datatype="html">
+        <source>Jeampy, 23 ans. Artiste peintre a pu organiser sa soirée d&apos;exposition en vendant ses
+                    tableaux en prévente su AB Crowfunding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/prodpre/prodpre.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8e0f62a105ea1d08f7b92d2b04278a2bbabe28f" datatype="html">
+        <source> A l&apos;ecole Malula, les enfnants peuvent suivre des cours à disctance en restant chez eux
+                    en se protégeant du corona virus.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/prodeduc/prodeduc.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e138849dbeb6b34bd59640ec0b2653d0e27747ec" datatype="html">
+        <source>
+                    <x id="START_TAG_MDB-ICON" ctype="x-mdb-icon" equiv-text="&lt;mdb-icon&gt;"/><x id="CLOSE_TAG_MDB-ICON" ctype="x-mdb-icon" equiv-text="&lt;/mdb-icon&gt;"/> AB Soins est un produit d&apos;Avenirbiz permettant la
+                    gestion intégrale des hôpitaux, cliniques, pharmacies, laboratoires, etc. Le système offre des
+                    possibilités incroyable en terme de gestion de système de santé. pour le client de la consultation à
+                    la préscription d&apos;examens, les examens propement dit au laboratoire,... Le suivi permenant des
+                    patients esta assuré.
+                    <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+                        <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+                    <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/prodsoins/prodsoins.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64c9647fb008dd3992a2d455bcb48eafc4887a6d" datatype="html">
+        <source>Ada, 47 ans. mere au foyer. Peut, à partir de sa maison, ses fiches médicales et celles
+                    de ses enfants.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/prodsoins/prodsoins.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23981a25c062daed48a1143cd26266a4a10c8a87" datatype="html">
+        <source>Construisons le futur ensemble
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a870199a741f8d8a739068da02771e4799f2e04" datatype="html">
+        <source> Nous construisons le futur
+                ensemble
+                avec vous,
+                en vous fournissant des services de qualité répondant à votre besoin d&apos;entreprise.
+
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77696d4719c12d9e9f05684ff0aa837ddff3e1e4" datatype="html">
+        <source>Contactez-nous  
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a450a2dcc4d613590f4f1708a23a170324f2833" datatype="html">
+        <source>AB Crowdfunding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65cf896abc957cf1c55b608451eba0da5e858695" datatype="html">
+        <source>AB Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/intro/intro.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="305a728cb48cb2431bd700ad1d6e63adbcb1bce8" datatype="html">
+        <source>Service d&apos;entreprise</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11751a6b39294943738893f331547687eb8d0ba2" datatype="html">
+        <source>Sites vitrine</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="069f494276cad608ea18e6c05286d6f0ce37b936" datatype="html">
+        <source>Présentez votre entreprise, attirez plus de
+                clients en
+                soignant votre image sur le
+                web de la manière la plus professionnelle qui puisse exister. présentez vos produits, augmentez vos stratégie du marketing.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="412228065e0b4658c2587713702cd2bf50cc9a62" datatype="html">
+        <source>En savoir plus </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3e32623f821bb7cd6ff1f43725aad80a936d00d" datatype="html">
+        <source>Site E-commerce</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8ee7caeb5d1978b123aef70a38f27f59628ffe5" datatype="html">
+        <source>Vous avez une boutique, un magasin ou souhaitez-vous vendre
+                n&apos;importe
+                quoi sur internet, n ous faisons pour vous des sites d&apos;e-commerce de qualité intégrant les moyens de
+                paiement les plus commodes à savoir m-pesa, orange money, airtel money, paiement par carte bancaire,
+                PayPal, etc.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de7018645f2ed65b4768abf81a4a4fa332d2dfd1" datatype="html">
+        <source>Solution ERP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b3abd7f35ddbf83f4009198c377292b16717625" datatype="html">
+        <source>Pour chaque besoin de votre entreprise, nous dévellopons
+                une application adaptée à ce besoin. En partant de la gestion jusqu&apos;à la vente, la facturation, les
+                RH, etc
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/servicehome/servicehome.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9dff22f56f5795fa7d5bddc2ba939dd1f71fb1a4" datatype="html">
+        <source>Partenaire Officiel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/mission/mission.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6b18ab7c46959f29ca8509363f644586cdedefe" datatype="html">
+        <source>Hôpitaux accompagné</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/mission/mission.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c2ca979fbbbb690cb804a51b829850a3c70081d" datatype="html">
+        <source>Etablissement accompagné</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/mission/mission.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49836130104c32b5db597935dad67a1d63b4f3ef" datatype="html">
+        <source>Don fourni</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/mission/mission.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b1edbb8763dcd37123fc1ca97a5288e5ebc5be5f" datatype="html">
+        <source>Avenir Business vous dispose plusieurs solutions d&apos;entreprise 
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/introprod/introprod.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20b3b93dba86d24b9037ae8b8319f2a49c701b53" datatype="html">
+        <source> 
+              Des produits de haute qualité business vous permettant d&apos;atteindre vos niveaux de performance le plus élevé possible.
+
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/introprod/introprod.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caf9d202bee6caa8048821c36fcb64b19c3e2bdb" datatype="html">
+        <source>Contactez-nous  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/introprod/introprod.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b81fb16bc62c32db230cc16922de936ecdae8cba" datatype="html">
+        <source>Produits Disponnible</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2aa5a7274bc7598e8afd25949faab3b85471dc7d" datatype="html">
+        <source>AB CROWDFUNDING</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfc3c533e640c8fba5c246f9ab836b5dad957afd" datatype="html">
+        <source>Le financement participatif par le
+                Don, la prévente et le prêt. AB Crowdfunding permet le financement des organisations et des particuliers
+                au moyen de don, de la prévente et de prêt.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fa9f30bfd18c36cc4451476844750637f825215" datatype="html">
+        <source>Comment ca marche  <x id="START_TAG_MDB-ICON" ctype="x-mdb-icon" equiv-text="&lt;mdb-icon&gt;"/><x id="CLOSE_TAG_MDB-ICON" ctype="x-mdb-icon" equiv-text="&lt;/mdb-icon&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6253b3e1537a9839a7e49128a052f4e4cb7e1d80" datatype="html">
+        <source>AB SOINS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef341c60d69ba37f32e7d8b1509c8122f104b26a" datatype="html">
+        <source>La téléconsultation, l&apos;accés aux
+                dossiers médicaux du patient à distance, la consulation, les analyses labo, la préscription, etc. Nous
+                avons géré le processus médical dans une seule et unique application. la gestion d&apos;un hôpital n&apos;a jamais
+                été aussi facile.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da7109bae16cfa473a3305b6cfb68c98a0de56e3" datatype="html">
+        <source>AB EDUCATION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90bea590063bed3bbf82ae56c0e48628002dba76" datatype="html">
+        <source>Nous avons rendu facile et intuitif
+                la gestion d&apos;une institution scolaire. De l&apos;inscription de lélève jusqu&apos;à la délivrance de ses documents
+                scolaire, nous avons informatisé tout ce processus dans une seule et unique application. Cour en ligne,
+                examen en ligne, etc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produitdispo/produitdispo.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6350c57fed9d191a9b5b076dece1afc801cd4e3a" datatype="html">
+        <source>DON</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodcrowd/prodcrowd.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcfcf11cf2985a7de4ec847442627f1aa5c5f23e" datatype="html">
+        <source>Soutenez des projets ou présentez vos
+                projets afin d&apos;obtenir une aide financière de la part de votre communauté. Vous êtes bienfaiteurs,
+                vous voulez soutenir des projets congolais, écrit par des congolais et pour les congolais, Vous êtes
+                au bon endroit. Veuillez voir toute liste des projets innovents, de soutien afin de rendre leurs rêves
+                réels et soutenir une bonne cause.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodcrowd/prodcrowd.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2ba6c5a18a09277ee85c0eab13b1ae9290646c0" datatype="html">
+        <source>Visitez le
+                site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodcrowd/prodcrowd.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a540f69b7ed205b880cce1edd5f136ff76711c0" datatype="html">
+        <source>AB Soins est un
+        produit d&apos;Avenir Business. Elle est une application concue pour la gestion intégrale des institutions de santé:
+        hôpitaux, centres de santé, laboratoires, dispensaires, pharmaçies, etc. Elle comprend les Fonctionnalités
+        suivantes:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="625657f1f3080428b2a7340ed5d28deed13a047f" datatype="html">
+        <source>GESTION HOSPITALIERE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a20a169d768c9792d7f668d9e57efd9f86166f3" datatype="html">
+        <source>Cette fonctionnalité convient aux
+                hôpitaux multi-spécialités, aux centres de retraite et des soins. Cette fonctionnalité permet de gérer
+                le nombre de lit, de bâtiment, de salle d&apos;opération, et leurs état de disponnibilité. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d430e0304720300622cde9e6691ffb37d75b3ce" datatype="html">
+        <source>GESTION DES ORDONNANCES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="07108fd3bb44faa2b2d3b02375840def0ea70024" datatype="html">
+        <source>Générer un rapport de présciption qu&apos;on
+                peut facilement transmettre dans la pharmacie de l&apos;hôpital. Le système permet au médecin de
+                transmettre automatiquement les détails de la préscription à la pharmacie interne, les informations de
+                la facturation au service de comptes et de les envoyer directement par e-mail au patient.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17696530cf21eb01cd5f098f14d948bd41abe8ea" datatype="html">
+        <source>EVALUATION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d3cf0811df3c5ac17371a3b0394a943c761fac6" datatype="html">
+        <source>Le médecin peut évaluer les patients
+                régulièrement pour enregistrer des mises à jour sur leurs signes vitaux, leur état mental, leurs
+                symptômes, leurs détails de diagnostic et d&apos;autres informations importante.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42d3250c7066c79225fd8b83d2b896bb716747fc" datatype="html">
+        <source>GESTION DES UNITES DE SOINS
+                INTENSIF</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04c984fd2c4b3dab8fc740a62d1d4b9615d169d5" datatype="html">
+        <source>Configurer toutes les unités de soins
+                intensifs de votre centre de santé et de votre système, vous permettra de gérer leurs opèration et
+                leurs procédures d&apos;arrondi lors des admissions de patients et vous donnera la possibilité d&apos;effectuer
+                des activités de sortie étendues.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24745801cf7bce80a720c2e6c45236901f413fcd" datatype="html">
+        <source>PARAMETRES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="541b09d2cdeb7d0f56402e213460598dba32a60e" datatype="html">
+        <source>Gérer maintenant les opèrations AB
+                Soins importantes grâce à l&apos;opèration de paramètres centralisés disponnible dans le panneau paramètre
+                d&apos;odoo.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e918e5414f5caa92b3d21495dbd5420b805961ba" datatype="html">
+        <source>PROCEDURE D&apos;EXAMEN DU PATIENT
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa41cfc62e5510f954e4de57a2003d6b03ddbbf2" datatype="html">
+        <source>AB Soins vous permet d&apos;avoir la
+                possibilité d&apos;enregistrer les détails d&apos;examen importants des blessures graves ou des antécédants
+                d&apos;accidents de votre patient pour le cas d&apos;urgence. Le médecin peut directement être admis au centre
+                de santé ou enregistrer les détails et la raison du décés si le patient est malade lors de l&apos;examen ou
+                à son arrivé à l&apos;hôpital.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c303655bb3fa3ecb8ce1e9b86a45ca621f6fb8b" datatype="html">
+        <source>GESTION DES TRAITEMENTS ET DES
+                SERVICES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="824d90e71542f37003516c53000d9422ca8338f2" datatype="html">
+        <source>AB Soins vous permet de prendre
+                rendez-vous avec un médecin et d&apos;ajouter des détails sur divers produits ou services de traitement au
+                cours de la séance de consultation et de générer une facture pour ceux-ci.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6989f783c6eee2992cac147e30a88ce7aa20a92d" datatype="html">
+        <source>GESTION DU SUIVI</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4d02cf5bb839ac1a13b0090c5da78f0b578ad02" datatype="html">
+        <source>Le suivi est un acte important
+                consistant à prendre contact avec votre patient à une date ulterieure et spécifiée pour vérifier le
+                progrés du patient depuis sa dernière consultation. AB Soins vous permet d&apos;enregistrer la prochiane
+                date de suivi au moment de la fin du rendez-vous ou de la soumission de la préscription.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">240</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d3b700c6ecfca20a288f6c21dad44ed447fed98" datatype="html">
+        <source>GENETIQUE ET SOCIO-ECONOMIQUE
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ae385fc12166dc308cb5509bcdaeedc5705667c" datatype="html">
+        <source>Gestion des risques génétique et
+                héréditaires du patient en utilisant plus de 4.200 génes pré-configurés liés à des maladies (NCBI/Gene
+                Cards). Enregistre également les détails sociaux d&apos;un patient comme les conditions de vie, le niveau
+                de l&apos;éducation, l&apos;affection familiale et le toxicomanie qui influencent la santé.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">270</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e6b4a5ef62dfdf90e6af74237633bf1c891b542" datatype="html">
+        <source>RAPPORT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">297</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7153be0c3ce2ba7bf7da5e18dbfba60258da70c1" datatype="html">
+        <source>Effectuez une analyse de votre centre
+                de santé en utilisant divers rapports importants telsque l&apos;historique des médicaments et des maladies
+                du patient, la prescription, le rapport d&apos;évaluation, le rapport des résultats des tests de
+                laboratoire et bien d&apos;autres..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">298</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abc1cd8c590e9edfd5b689448fbb95f3bc6fbcb9" datatype="html">
+        <source>ALLAITEMENT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9341011577bb1d9b310c6bd6f262b9db6a59aa1" datatype="html">
+        <source>Type d&apos;utilisateur &quot;infiremière&quot; qui
+                permet de gérer differents travaux administratifs de vos centres de soins tels que les rendez-vous,
+                les visites sans rendez-vous, les journaux d&apos;appels des patients, les chirurgies et bien d&apos;autres..
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/prodsoin/prodsoin.component.html</context>
+          <context context-type="linenumber">327</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

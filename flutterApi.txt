@@ -1,0 +1,29 @@
+Future getData() async{
+    var url = 'https://jsonplaceholder.typicode.com/users';
+    http.Response response = await http.get(url);
+    var data = jsonDecode(response.body);
+    return data;
+    print(data.toString());
+  }
+
+
+
+
+
+
+: FutureBuilder(
+          future: getData(),
+          builder: (ctx, snap){
+            if( snap.hasData){
+              return ListView.builder(
+                 itemBuilder: (c, i){
+                   return ListTile(
+                     title: Text(snap.data[i]["name"]),
+                   );
+                 },
+              );
+            }else{
+              return CircularProgressIndicator();
+            }
+          },
+        ),

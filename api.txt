@@ -1,0 +1,29 @@
+quelque site avec leurs api rest
+
+
+OpenWeatherMap
+
+
+TheMovieDB est assez connu. C'est une sorte d'Allocine mais contenant plus de données.
+
+Très complète, l'API vous permet de rechercher des films ou des séries TV, des acteurs.
+
+
+
+REST Countries permet d'avoir des informations sur les pays, telles que la capitale, le code du pays, la monnaie, le continent, la population, etc...
+
+
+
+Cloud Convert est un service qui convertit un fichier dans un autre format. La liste des formats acceptés est énorme !
+
+
+EMEI info vous permet de retrouver des informations sur votre téléphone portable à partir du numéro EMEI (fabricant, modèle, batterie, taille de l'écran, etc...).
+
+
+Très simple d'utilisation, ColorTag vous récupère les couleurs principales d'une image.
+
+Open Beer Database est une base de données de bières. Vous récupérez le nom, la description et la brasserie associés.
+
+On continue dans le décalé avec SWAPI : The Star Wars API.
+Cette API vous permet de récupérer pas mal d'infos sur les films, les vaisseaux, les planètes, etc...
+

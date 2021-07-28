@@ -1,0 +1,67 @@
+
+
+Integrate AdminLTE3 with Angular 10
+
+Prerequisite - Visual Studio Code (https://code.visualstudio.com/download)
+----------------------------------------------------------------------------
+Steps - 
+
+1. install adminlte latest one - npm install -g @angular/cli
+------------------------------------------------------
+
+2. Create new angular application 
+ng new my-demo-app
+
+------------------------------------------------------
+3. Install admin lte 3 - npm install admin-lte@^3.0 --save
+
+Verify package.json
+
+------------------------------------------------------
+4. Choose admin let dashboard which you want
+https://adminlte.io/themes/dev/AdminLTE/index.html
+
+angular.json, style, scripts (Update with css and js)
+
+------------------------------------------------------
+
+5. Change in index.html - body and class
+   App.Component.html - update content
+   Copy images to asset folder 
+   Replace path 
+------------------------------------------------------
+
+	Great! you should be good now.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************SCRIPT TO REPLACE******************-------------
+ "styles": [
+              "src/styles.sass",
+              "node_modules/admin-lte/plugins/fontawesome-free/css/all.css",
+              "node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.css",
+              "node_modules/admin-lte/dist/css/adminlte.css"
+            ],
+            "scripts": [
+              "node_modules/admin-lte/plugins/jquery/jquery.js",
+              "node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.js",
+              "node_modules/admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.js",
+              "node_modules/admin-lte/dist/js/adminlte.js",
+              "node_modules/admin-lte/dist/js/demo.js",
+              "node_modules/admin-lte/plugins/jquery-mousewheel/jquery.mousewheel.js",
+              "node_modules/admin-lte/plugins/raphael/raphael.js",
+              "node_modules/admin-lte/plugins/jquery-mapael/jquery.mapael.js",
+              "node_modules/admin-lte/plugins/chart.js/Chart.js",
+              "node_modules/admin-lte/dist/js/pages/dashboard2.js"
+            ]

@@ -1,0 +1,29 @@
+Step 1
+ 
+First of all, you have to check your internet connection and its speed. If your speed is slow, then you have a chance to occur the same error again, so you have to need a high-speed internet connection. 
+ 
+Step 2
+ 
+Open VS Code, then go to the Terminal and click on the new terminal.
+ 
+Step 3
+ 
+Run the command “npm cache clean --force" which is used to clean the npm memory in your system.
+ 
+npm cache clean --force
+ 
+Step 4
+ 
+Then run the command “ npm uninstall –g @angular/CLI” (this command is used to uninstall Angular CLI from your system).
+ 
+npm uninstall –g @angular/CLI 
+ 
+Step 5
+ 
+Now you have to again install Angular CLI using the command “npm install –g @angular/cli@latest” (this command is used to install angular CLI in your system from the server)
+ 
+npm install –g @angular/cli@latest
+ 
+Step 6
+ 
+After the complete installation of Angular CLI, you have to check the versions of the angular CLI and npm version using a few commands.

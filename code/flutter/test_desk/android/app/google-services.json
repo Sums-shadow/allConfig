@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755654149197",
+    "project_id": "shadowquiz0",
+    "storage_bucket": "shadowquiz0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755654149197:android:68d78ba9c49a8f8d49c804",
+        "android_client_info": {
+          "package_name": "com.example.test_desk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755654149197-3r2plf56hkks607avmbh2t4po5c3emin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg4ebyPlkXxOu91cTFHxBblgCeuY0wypg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755654149197-3r2plf56hkks607avmbh2t4po5c3emin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

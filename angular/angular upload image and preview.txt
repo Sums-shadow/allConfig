@@ -1,0 +1,132 @@
+<h1>Angular Image Upload with Preview - ItSolutionStuff.com</h1>
+   
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+     
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input 
+            formControlName="name"
+            id="name" 
+            type="text" 
+            class="form-control">
+        <div *ngIf="f.name.touched && f.name.invalid" class="alert alert-danger">
+            <div *ngIf="f.name.errors.required">Name is required.</div>
+            <div *ngIf="f.name.errors.minlength">Name should be 3 character.</div>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="file">File</label>
+        <input 
+            formControlName="file"
+            id="file" 
+            type="file" 
+            class="form-control"
+            (change)="onFileChange($event)">
+        <div *ngIf="f.file.touched && f.file.invalid" class="alert alert-danger">
+            <div *ngIf="f.file.errors.required">File is required.</div>
+        </div>
+    </div>
+    
+    <img [src]="imageSrc" *ngIf="imageSrc" style="height: 300px; width:500px">
+        
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { FormGroup, FormControl, Validators} from '@angular/forms';
+    
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+   imageSrc: string;
+   myForm = new FormGroup({
+    name: new FormControl('', [Validators.required, Validators.minLength(3)]),
+    file: new FormControl('', [Validators.required]),
+    fileSource: new FormControl('', [Validators.required])
+  });
+  
+  constructor(private http: HttpClient) { }
+    
+  get f(){
+    return this.myForm.controls;
+  }
+   
+  onFileChange(event) {
+    const reader = new FileReader();
+    
+    if(event.target.files && event.target.files.length) {
+      const [file] = event.target.files;
+      reader.readAsDataURL(file);
+    
+      reader.onload = () => {
+   
+        this.imageSrc = reader.result as string;
+     
+        this.myForm.patchValue({
+          fileSource: reader.result
+        });
+   
+      };
+   
+    }
+  }
+   
+  submit(){
+    console.log(this.myForm.value);
+    this.http.post('http://localhost:8001/upload.php', this.myForm.value)
+      .subscribe(res => {
+        console.log(res);
+        alert('Uploaded Successfully.');
+      })
+  }
+}
+
+
+
+
+
+
+
+
+<?php
+  
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: PUT, GET, POST");
+    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+      
+    $folderPath = "upload/";
+    $postdata = file_get_contents("php://input");
+    $request = json_decode($postdata);
+      
+    $image_parts = explode(";base64,", $request->fileSource);
+      
+    $image_type_aux = explode("image/", $image_parts[0]);
+      
+    $image_type = $image_type_aux[1];
+      
+    $image_base64 = base64_decode($image_parts[1]);
+      
+    $file = $folderPath . uniqid() . '.png';
+      
+    file_put_contents($file, $image_base64);
+  
+?>
+
+
+

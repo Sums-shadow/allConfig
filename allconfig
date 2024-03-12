@@ -1,0 +1,4 @@
+
+
+enable disablefirewall
+netsh advfirewall set allprofiles state on/off

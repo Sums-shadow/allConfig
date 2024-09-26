@@ -1,0 +1,75 @@
+MONGOURI=mongodb://admin:12345@51.222.204.99:27017/qavahdb
+
+
+vim /etc/yum.repos.d/mongodb-org-7.0.repo
+
+[mongodb-org-7.0]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://pgp.mongodb.com/server-7.0.asc
+
+
+
+yum update -y
+sudo yum install -y mongodb-org
+
+sudo yum install -y mongodb-org-7.0.14 mongodb-org-database-7.0.14 mongodb-org-server-7.0.14 mongodb-mongosh-7.0.14 mongodb-org-mongos-7.0.14 mongodb-org-tools-7.0.14
+
+
+
+systemctl start mongod
+systemctl enable mongod
+
+
+vim /etc/mongod.conf
+
+
+bindIp: 0.0.0.0
+
+
+systemctl restart mongod
+
+
+firewall-cmd --add-port=27017/tcp --permanent
+firewall-cmd --reload
+
+
+mongosh
+
+use admin
+
+
+db.createUser({
+  user: "admin",
+  pwd: "12345",
+  roles: [{ role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase"]
+})
+
+
+
+db.auth("admin", "12345")
+
+
+use qavahdb
+db.createUser({
+  user: "admin",
+  pwd: "12345",
+  roles: ["readWrite"]
+})
+
+
+
+db.getUsers()
+
+
+
+sudo firewall-cmd --get-active-zones
+
+
+
+sudo firewall-cmd --zone=public --list-all
+
+
+

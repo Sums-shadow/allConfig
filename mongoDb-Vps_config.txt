@@ -96,4 +96,5 @@ MONGOURI=mongodb://admin_qavah:0)9(8*7%266%5E5%254%243%232%401!@51.222.204.99:27
 
 mongosh --port 27017  --authenticationDatabase "admin" -u "qavah_user" -p
 
-
+security:
+    authorization: enabled

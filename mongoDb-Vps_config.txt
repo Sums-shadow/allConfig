@@ -73,3 +73,27 @@ sudo firewall-cmd --zone=public --list-all
 
 
 
+db.createUser({
+  user: "admin_qavah",
+  pwd: "0)9(8*7&6^5%4$3#2@1!",
+    roles: [{ role: "readWrite", db: "qavah_db" }],
+  mechanisms: [ "SCRAM-SHA-1", "SCRAM-SHA-256" ]
+})
+
+db.createUser({
+  user: "admin",
+  pwd: "1!2@3#4$5%6^7&8*9(0)",
+  roles: [
+    { role: "userAdminAnyDatabase", db: "admin" },
+    { role: "readWriteAnyDatabase", db: "admin" }
+  ],
+  mechanisms: [ "SCRAM-SHA-1", "SCRAM-SHA-256" ]
+})
+
+
+MONGOURI=mongodb://admin_qavah:0)9(8*7%266%5E5%254%243%232%401!@51.222.204.99:27017/qavah_db?authSource=qavah_db&authMechanism=SCRAM-SHA-1
+
+
+mongosh --port 27017  --authenticationDatabase "admin" -u "qavah_user" -p
+
+

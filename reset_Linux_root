@@ -1,0 +1,51 @@
+  # push [e] key
+      CentOS Stream (5.14.0-115.el9.x86_64) 9
+      CentOS Stream (5.14.0-105.el9.x86_64) 9
+      CentOS Stream (5.14.0-86.el9.x86_64) 9
+      CentOS Stream (0-rescue-ab414d4792d04b9dbc1e2361f936e849) 9
+
+      Use the ^ and v keys to change the selection.
+      Press 'e' to edit the selected item, or 'c' for a command prompt.
+
+     # add [rw init=/bin/bash] to the end of [linux] line
+
+     load_video
+     set gfxpayload=keep
+     insmod gzio
+     linux ($root)/vmlinuz-5.14.0-115.el9.x86_64 root=/dev/mapper/cs-root ro crashk\
+     ernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/cs-swap rd.lvm.lv=cs\
+     /root rd.lvm.lv=cs/swap console=ttyS0,115200n8 rw init=/bin/bash
+     initrd ($root)/initramfs-5.14.0-115.el9.x86_64.img
+
+      Press Ctrl-x to start, Ctrl-c for a command prompt or Escape to
+      discard edits and return to the menu. Pressing Tab lists
+      possible completions.
+
+      # after inputting above, push [Ctrl-x] key to proceed
+      
+.....
+.....
+
+[  OK  ] Stopped Rule-based Manager for Device Events and Files.
+[  OK  ] Closed udev Control Socket.
+[  OK  ] Closed udev Kernel Socket.
+[  OK  ] Stopped dracut pre-udev hook.
+[  OK  ] Stopped dracut cmdline hook.
+         Starting Cleanup udev Database...
+[  OK  ] Stopped Create Static Device Nodes in /dev.
+[  OK  ] Stopped Create List of Static Device Nodes.
+[  OK  ] Finished Plymouth switch root service.
+
+# after prompt is displayed, do like follows
+bash-5.1#
+
+# set SELinux relabeling on next boot if you enabling SELinux
+bash-5.1# touch /.autorelabel
+# set password
+bash-5.1# passwd
+Changing password for user root.
+New password:
+Retype new password:
+passwd: all authentication tokens updated successfully.
+# restart System and complete to reset
+bash-5.1# exec /sbin/init

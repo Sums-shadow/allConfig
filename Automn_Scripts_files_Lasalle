@@ -1,0 +1,499 @@
+1. DHCP
+
+sudo dnf install dhcp-server
+
+sudo nano /etc/dhcp/dhcpd.conf
+
+
+default-lease-time 86400;
+max-lease-time 172800;
+subnet 192.168.X.0 netmask 255.255.255.0 {
+    range 192.168.X.10 192.168.X.50;
+    option routers 192.168.X.1;
+    option domain-name-servers 192.168.X.1, 192.168.X.200, 192.168.X.250;
+    option domain-name "velovert.org";
+}
+
+
+
+
+sudo systemctl start dhcpd
+sudo systemctl enable dhcpd
+
+
+
+
+sudo systemctl status dhcpd
+journalctl -f -u dhcpd
+
+
+________________________________________________
+
+2. DNS
+
+sudo dnf install bind bind-utils
+
+sudo nano /etc/named.conf
+
+acl "trusted" {
+    192.168.X.0/24;
+};
+
+options {
+    listen-on port 53 { any; };
+    allow-query { trusted; };
+    recursion yes;
+};
+
+zone "velovert.org" IN {
+    type master;
+    file "velovert.org.db";
+    allow-transfer { 192.168.X.2; 192.168.X.200; };
+};
+
+zone "terreverte.net" IN {
+    type master;
+    file "terreverte.net.db";
+    allow-transfer { 192.168.X.2; 192.168.X.200; };
+};
+
+
+
+sudo nano /var/named/velovert.org.db
+
+
+
+
+$TTL 86400
+@       IN      SOA     ns1.velovert.org. root.velovert.org. (
+                        2023110601 ; Serial
+                        3600       ; Refresh
+                        1800       ; Retry
+                        1209600    ; Expire
+                        86400 )    ; Minimum TTL
+
+@       IN      NS      ns1.velovert.org.
+ns1     IN      A       192.168.X.1
+
+centosx         IN      A       192.168.X.1
+centosx+1       IN      A       192.168.X.250
+serverx         IN      A       192.168.X.200
+www             IN      CNAME   centosx
+
+
+
+
+sudo nano /var/named/terreverte.net.db
+
+
+
+$TTL 86400
+@       IN      SOA     ns1.terreverte.net. root.terreverte.net. (
+                        2023110601 ; Serial
+                        3600       ; Refresh
+                        1800       ; Retry
+                        1209600    ; Expire
+                        86400 )    ; Minimum TTL
+
+@       IN      NS      ns1.terreverte.net.
+ns1     IN      A       192.168.X.1
+
+centosx         IN      A       192.168.X.1
+centosx+1       IN      A       192.168.X.250
+serverx         IN      A       192.168.X.200
+www             IN      CNAME   centosx
+
+
+
+
+
+sudo systemctl start named
+sudo systemctl enable named
+
+___________________________________________________
+
+
+2B DNS 2
+
+sudo dnf install bind bind-utils
+
+sudo nano /etc/named.conf
+
+
+acl "trusted" {
+    192.168.X.0/24;
+};
+
+options {
+    listen-on port 53 { any; };
+    allow-query { trusted; };
+    recursion yes;
+};
+
+zone "velovert.org" IN {
+    type slave;
+    file "slaves/velovert.org.db";
+    masters { 192.168.X.1; };
+};
+
+zone "terreverte.net" IN {
+    type slave;
+    file "slaves/terreverte.net.db";
+    masters { 192.168.X.1; };
+};
+
+
+
+
+sudo mkdir -p /var/named/slaves
+sudo chown named:named /var/named/slaves
+
+
+
+sudo systemctl start named
+sudo systemctl enable named
+
+2C DNS Win Server
+
+
+Install DNS Role:
+
+Open Server Manager.
+
+Navigate to "Add roles and features".
+
+Follow the wizard to install the DNS server role.
+
+Configure Secondary Zones:
+
+Open the DNS Manager.
+
+Right-click on "Forward Lookup Zones" and select "New Zone".
+
+Follow the wizard to create secondary zones for velovert.org and terreverte.net.
+
+Specify the IP address of the CentOS 1 DNS server as the primary DNS server.
+
+For velovert.org:
+
+Zone Type: Secondary
+
+Primary DNS Server: 192.168.X.1
+
+For terreverte.net:
+
+Zone Type: Secondary
+
+Primary DNS Server: 192.168.X.1
+
+___________________________________________
+
+sudo mkdir /nfs_share
+sudo chmod 777 /nfs_share
+
+sudo dnf install nfs-utils -y
+
+sudo nano /etc/exports
+
+
+/nfs_share 192.168.110.250(ro,sync) 192.168.110.200(ro,sync) 192.168.110.0/24(rw,sync)
+
+
+
+sudo systemctl start nfs-server
+sudo systemctl enable nfs-server
+
+
+Sur CentOS 2 (Client NFS):
+sudo dnf install nfs-utils -y
+
+
+sudo mkdir /root/nfsshare
+
+
+sudo mount CentOS1_IP:/nfs_share /root/nfsshare
+
+CentOS1_IP:/nfs_share /root/nfsshare nfs defaults 0 0
+
+
+Sur Windows Server 2022 et Windows 10:
+
+Install-WindowsFeature -Name NFS-Client
+mount -o anon CentOS1_IP:/nfs_share N:
+
+
+net use * /delete /y
+net use R: \\CentOS1\private_share /user:administrateur Qwerty77
+
+___________________________________________________________
+
+
+VPN
+access-list 110 permit ip 192.168.90.0 0.0.0.255 172.31.90.0 0.0.0.255
+
+crypto isakmp policy 20
+
+encryption aes 256
+
+authentication pre-share
+
+group 5
+
+exit
+
+crypto isakmp key vpnpa55 address 10.1.90.2
+
+crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac
+
+crypto map VPN-MAP 10 ipsec-isakmp
+
+description VPN connection to TORONTO
+
+set peer 10.1.90.2
+
+set transform-set VPN-SET
+
+match address 110
+
+exit
+
+interface S0/1/0
+
+crypto map VPN-MAP
+
+__________________________________________
+
+SPF
+
+MTL-ROUTER
+
+
+crypto isakmp policy 20
+ encr aes
+ hash sha
+ authentication pre-share
+ group 5
+ lifetime 3600
+crypto isakmp key cisco1234X address 10.1.90.2
+crypto ipsec transform-set VPN-TRANSFORM-SET esp-aes esp-sha-hmac
+crypto map VPN-MAP 10 ipsec-isakmp
+ set peer 10.1.90.2
+ set transform-set VPN-TRANSFORM-SET
+ match address 101
+interface Serial0/1/0
+ crypto map VPN-MAP
+access-list 101 permit ip 192.168.90.0 0.0.0.255 172.31.90.0 0.0.0.255
+
+
+
+
+
+TOR-ROUTER
+
+
+crypto isakmp policy 20
+ encr aes
+ hash sha
+ authentication pre-share
+ group 5
+ lifetime 3600
+crypto isakmp key cisco1234X address 10.1.90.1
+crypto ipsec transform-set VPN-TRANSFORM-SET esp-aes esp-sha-hmac
+crypto map VPN-MAP 10 ipsec-isakmp
+ set peer 10.1.90.1
+ set transform-set VPN-TRANSFORM-SET
+ match address 101
+interface Serial0/1/0
+ crypto map VPN-MAP
+access-list 101 permit ip 172.31.90.0 0.0.0.255 192.168.90.0 0.0.0.255
+
+___________________________________________
+
+ZPF2
+ZPF
+
+1. Define the Zones
+conf t
+zone security IN-ZONE
+zone security OUT-ZONE
+
+2. Assign Interfaces to Zones
+interface Gig0/0
+zone-member security IN-ZONE
+
+interface Gig0/1
+zone-member security OUT-ZONE
+
+
+3. Create Class Maps for Traffic Matching
+class-map type inspect match-any INTERNET-TRAFFIC
+ match protocol http
+ match protocol https
+ match protocol dns
+ match protocol icmp
+ match protocol ftp
+ match protocol telnet
+ match protocol smtp
+match protocol pop3
+
+
+4. Create Policy Maps for Action
+policy-map type inspect IN-TO-OUT
+ class type inspect INTERNET-TRAFFIC
+  inspect
+
+
+5. Apply the Policy Map to a Zone-Pair
+zone-pair security IN-TO-OUT source IN-ZONE destination OUT-ZONE
+ service-policy type inspect IN-TO-OUT
+
+
+6. Verify the Configuration
+show zone security
+show zone-pair security
+show policy-map type inspect zone-pair
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R3(config)# license boot module c1900 technology-package securityk9
+
+Create an internal zone.
+R3(config)# zone security IN-ZONE
+R3(config-sec-zone) exit
+
+Create an external zone
+R3(config-sec-zone)# zone security OUT-ZONE
+R3(config-sec-zone)# exit
+
+Create an ACL that defines internal traffic
+R3(config)# access-list 101 permit ip 192.168.3.0 0.0.0.255 any
+
+Create a class map referencing the internal traffic ACL.
+R3(config)# class-map type inspect match-all IN-NET-CLASS-MAP
+R3(config-cmap)# match access-group 101
+R3(config-cmap)# exit
+
+Create a policy map to determine what to do with matched traffic
+R3(config)# policy-map type inspect IN-2-OUT-PMAP
+
+Specify a class type of inspect and reference class map IN-NET-CLASS-MAP
+R3(config-pmap)# class type inspect IN-NET-CLASS-MAP
+
+Specify the action of inspect for this policy map
+R3(config-pmap-c)# inspect
+
+Create a pair of zones
+R3(config)# zone-pair security IN-2-OUT-ZPAIR source IN-ZONE destination OUT-ZONE
+
+Specify the policy map for handling the traffic between the two zones.
+R3(config-sec-zone-pair)# service-policy type inspect IN-2-OUT-PMAP
+R3(config-sec-zone-pair)# exit
+
+Assign interfaces to the appropriate security zones
+R3(config)# interface g0/1
+R3(config-if)# zone-member security IN-ZONE
+R3(config-if)# exit
+R3(config)# interface s0/0/1
+R3(config-if)# zone-member security OUT-ZONE
+R3(config-if)# exit
+
+
+R3# show policy-map type inspect zone-pair sessions
+
+______________________________________________________________
+Configure NTP
+Configure R1 as NTP clients.
+R1(config)# ntp server 192.168.1.5
+Configure routers to update hardware clock.
+R1(config)# ntp update-calendar 
+Configure NTP authentication on the routers
+R1(config)# ntp authenticate
+R1(config)# ntp trusted-key 1
+R1(config)# ntp authentication-key 1 md5 NTPpa55
+Configure routers to timestamp log messages
+R1(config)# service timestamps log datetime msec
+
+
+Configure Routers to Log Messages to the Syslog Server
+Configure the routers to identify the remote host (Syslog Server) that will receive logging messages
+R1(config)# logging host 192.168.1.6
+Use the command show logging to verify logging has been enabled.
+
+
+
+logging 172.16.40.250
+logging trap ebugging
+#Enable Debugging
+ debug ip icmp
+
+
+
+#do1x
+enable
+configure terminal
+
+aaa new-model
+
+radius server ISE
+ address ipv4 192.168.1.100 auth-port 1812 acct-port 1813
+ key YourSharedSecret
+
+dot1x system-auth-control
+
+interface range GigabitEthernet1/0/1 - 24
+ switchport mode access
+ switchport access vlan 10
+ authentication port-control auto
+ authentication event fail action authorize vlan 20
+ authentication event server dead action authorize vlan 30
+ dot1x pae authenticator
+___________________________________________________________
+
+

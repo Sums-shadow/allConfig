@@ -1,0 +1,13 @@
+$TTL 3600
+@	IN SOA dns10.ovh.ca. tech.ovh.net. (2025020702 86400 3600 3600000 60)
+        IN NS     dns10.ovh.ca.
+        IN NS     ns10.ovh.ca.
+        IN MX     0 mail
+        IN A     51.222.204.99
+    600 IN TXT     "v=spf1 +a +mx +ip4:91.234.194.113 +ip4:91.234.194.116 include:premiumsmtp.dnshostservices.com ~all"
+        IN TXT     ( "v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz4Aw9XHKE3xfF3ovWzXs7dLv1Wma+FDLk/wiajMhN4Ef/QAJKB2XrDV+kCzPg2k8VDtEgmY8kJcSHyasy1p89A+7kj0aGWXUM5LYM47DjkWV007YPbnr5EgwVwBuf62hOX3fzh9Le/NOMkyW+UDtyFVbiHCP9CO3qAoMY1WNPWmvC5lHKNJAaS6mlHNEAL" "z7iDHBE+5ACOTKS5DItd7xLa01eDuiNdXwuvtWPjXltaytNkGUxdG5mZAGoPVccpuoybMPRmRpKK8E8zZxJsbBoeJCpE5+aRR+dE1LX+su4GGzeBPNrUGiUfluWrcuesqAY9y0xAvxwgwwPL8+r+lCaQIDAQAB;t=s;" )
+_dmarc        IN TXT     "v=DMARC1;p=reject; rua=mailto:ezechielsums001@gmail.com; ruf=mailto:ezechielsums001@gmail.com; fo=1;"
+ftp        IN CNAME     qavahgroup.com.
+mail        IN A     91.234.194.113
+survey        IN A     51.222.204.99
+www        IN A     76.76.21.21

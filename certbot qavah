@@ -1,0 +1,1 @@
+sudo certbot --nginx -d land.qavah-group.ovh

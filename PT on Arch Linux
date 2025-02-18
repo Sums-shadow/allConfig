@@ -1,0 +1,7 @@
+1. Download
+https://aur.archlinux.org/cgit/aur.git/snapshot/packettracer.tar.gz
+https://www.netacad.com/courses/packet-tracer-download/
+2. extract
+tar -xzvf packettracert.tar.gz
+3. build
+makepkg -i

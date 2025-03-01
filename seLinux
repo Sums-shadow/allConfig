@@ -1,0 +1,8 @@
+
+
+If SELinux is enabled, it might block Nginx from reading the directory. Run:
+sestatus
+
+If SELinux is enforcing, allow Nginx access:
+sudo chcon -R --reference=/usr/share/nginx/html /home/rocky/gestion.qavahgroup.com
+sudo setsebool -P httpd_enable_homedirs 1

@@ -1,0 +1,35 @@
+let bottom = doc.page.margins.bottom;
+doc.page.margins.bottom = 0;
+doc.text('Page 1', 0.5 * (doc.page.width - 100), doc.page.height - 50,
+{
+width: 100,
+align: 'center',
+lineBreak: false,
+})
+
+// Reset text writer position
+
+doc.text('', 50, 50)
+doc.page.margins.bottom = bottom;
+
+let pageNumber = 1;
+
+doc.on('pageAdded', () => {
+    pageNumber++
+    let bottom = doc.page.margins.bottom;
+    doc.page.margins.bottom = 0;
+
+    doc.text(
+        'Pág. ' + pageNumber, 
+        0.5 * (doc.page.width - 100),
+        doc.page.height - 50,
+        {
+            width: 100,
+            align: 'center',
+            lineBreak: false,
+        })
+
+    // Reset text writer position
+    doc.text('', 50, 50);
+    doc.page.margins.bottom = bottom;
+})

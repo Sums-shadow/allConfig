@@ -1,5 +1,0 @@
- 
-mail     
-"umsshadow@gmail.com";
-      "Azertyuiop0123456789";
-  
